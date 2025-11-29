@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development  nodemon Backend/server.js",
     "build": "npm install  --prefix ./Frontend && npm run build --prefix ./Frontend && npm install",
-    "start": "cross-env NODE_ENV=production node Backend/server.js"
+    
 
   },
   "type": "module",
