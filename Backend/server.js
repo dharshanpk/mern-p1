@@ -28,7 +28,7 @@ app.use("/api/products",productRoutes);
   //Render client for any path
 
   app.get("/",(req,res) => 
-    res.sendFile(PassThrough.join(__dirname,"/Frontend/dist/index.html"))
+    res.sendFile(path.join(__dirname,"/Frontend/dist/index.html"))
 
 );
 
@@ -38,3 +38,4 @@ app.listen(PORT, () => {
 });
  
 //W2mfgrfk0CodFDWi
+
